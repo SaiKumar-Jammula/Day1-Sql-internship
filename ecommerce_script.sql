@@ -19,7 +19,7 @@ CREATE TABLE customers(
     customer_id int auto_increment primary key,
     customer_name varchar(100) not null,
     customer_email varchar(50) unique not null ,
-    customer_phone int not null,
+    customer_phone varchar(15) not null,
     address text not null
 );
 
